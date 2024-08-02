@@ -1,0 +1,142 @@
+body {
+  background:rgb(242, 152, 221);
+  text-align: center;
+}
+.App {
+  background-color: rgb(242, 244, 236);
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(172, 228, 43, 0.2);
+  padding: 3px 15px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-style: oblique;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px; 
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: px;
+  font-size: 12px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #555;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  margin: 2px;
+  border: none;
+  color: rgb(246, 238, 238);
+  cursor: pointer;
+  background-color: #ce11c1f0;
+  width: 20%;
+  font-size: 16px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+/* Get.css */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #dddddd;
+  width: 100px;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.select-button {
+  background-color: #be207c;
+  color: white;
+ width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.select-button:hover {
+  background-color: #e72580;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.update-button {
+  background-color: #ba007f;
+  color: white;
+  width:100px;
+  border: none;
+  cursor: pointer;
+margin-left: 100px;
+  border-radius: 5px;
+}
+
+.update-button:hover {
+  background-color: #007bb5;
+  
+}
+
